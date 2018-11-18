@@ -1,0 +1,25 @@
+autoloadの動きの確認
+参考:https://qiita.com/yotsak83/items/cc1a4936c0c92099db5a
+
+mkdir controllers
+mkdir models
+mkdir models/sub
+mkdir htdocs
+
+vi composer.json
+
+{
+    "autoload": {
+        "psr-4": {
+            "Controllers\\" : "controllers/",
+            "Models\\"      : "models/",
+            "Models\\Sub\\" : "models/sub/"
+        }
+    }
+}
+
+"c\\"："対応するベースディレクトリ"
+例えば、 namespace Controllers と宣言されたクラスは、controllers/の中にありますよ、と設定してあげている状態です。
+
+composer install
+vendorディレクトリが作成されたことをッカうにんする
