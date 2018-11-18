@@ -9,7 +9,7 @@
             "email": "giito0101@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
     "autoload": {
         "psr-4": {
             "Controllers\\" : "controllers/",
