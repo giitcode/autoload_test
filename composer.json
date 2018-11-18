@@ -1,4 +1,15 @@
 {
+    "name": "giito/pakagist_first",
+    "description": "はじめてのpakagist",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "giito",
+            "email": "giito0101@gmail.com"
+        }
+    ],
+    "require": {}
     "autoload": {
         "psr-4": {
             "Controllers\\" : "controllers/",

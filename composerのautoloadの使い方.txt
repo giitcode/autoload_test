@@ -20,6 +20,3 @@ vi composer.json
 
 "c\\"："対応するベースディレクトリ"
 例えば、 namespace Controllers と宣言されたクラスは、controllers/の中にありますよ、と設定してあげている状態です。
-
-composer install
-vendorディレクトリが作成されたことをッカうにんする
